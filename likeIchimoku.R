@@ -10,6 +10,7 @@ library(hrbrthemes)
 ### generate some data
 # use normal distribution to get "nice" data
 # do in a few parts to add "global variation"
+# add some random numbers from Poisson distribution as a spice
 
 ll <- 100
 start <- as.Date("2020-09-01") # artificial start date
