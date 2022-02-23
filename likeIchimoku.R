@@ -101,3 +101,5 @@ ggplot(aa, aes(x = A)) +
   geom_line(aes(y = slowTime), color = "orange") + # curve for long-term trend
   geom_line(aes(y = B), color = "grey60") + # actual data
   theme_ipsum_rc()
+
+ggsave("example_ichi.png", dpi = 300, units = "px", width=1200, height=540, device = "png", scale = 1.6)
